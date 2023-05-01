@@ -119,7 +119,7 @@ bool Maxon::startup() {
   autoConfigurePdoSizes();
 
   // write the configuration parameters via Sdo
-  success &= configParam();
+  //success &= configParam();
 
   if (!success) {
     MELO_ERROR_STREAM(
