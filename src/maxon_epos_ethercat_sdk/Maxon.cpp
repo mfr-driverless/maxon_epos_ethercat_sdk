@@ -119,6 +119,7 @@ bool Maxon::startup() {
   autoConfigurePdoSizes();
 
   // write the configuration parameters via Sdo
+  // NOTE: MFR: Comment / Uncomment to toggle using config on motor / from file
   //success &= configParam();
 
   if (!success) {
