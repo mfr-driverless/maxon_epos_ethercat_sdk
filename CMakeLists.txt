@@ -41,7 +41,7 @@ add_compile_options(-Wall -Wextra -Wpedantic)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(CATKIN_PACKAGE_DEPENDENCIES
-  message_logger
+  message_logger 
   ethercat_sdk_master
 )
 
